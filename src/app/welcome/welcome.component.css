@@ -1,0 +1,22 @@
+.container {
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #1E1E1E !important;
+    background-image: linear-gradient(180deg, #1E1E1E 25%, #a2a6aa42 100%) !important;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+ .txt-color{
+  color: #fff !important;
+ }
+.btn-color{
+  background-color: #05728f !important;
+}
+#btn-hover-effect:hover{
+  background-color: #137d99 !important;
+}

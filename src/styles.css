@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #1E1E1E !important;
+  }
+  .chng-color{
+    background-color: #a2a6aa42 !important;
+    background-image: linear-gradient(180deg, #a2a6aa42 25%, #a2a6aa42 100%) !important;
+  }
+  .write_msg{
+    background: #202020 !important;
+    color:#e4e4e4!important;
+  }
+  .sent_msg p{
+    background-color: rgb(61, 61, 61) !important
+  }
+  .sent_msg span{
+    color: #ADB5BD !important;
+  }
+  .received_msg p{
+    background-color: #202020 !important;
+    color: #fff !important;
+  }
+  .received_msg span{
+    color: #ADB5BD !important;
+  }
+  .inbox_people{
+    background-color: #202020 !important;
+    background-image: linear-gradient(180deg, #202020 25%, #202020 100%) !important;
+  }
+  .search-bar{
+    color: #fff !important;
+  }
+  .chat_ib h5{
+    color: #fff !important;
+  }
+  .chat_header h3{
+    color: #fff !important;
+  }
+ 
