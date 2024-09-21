@@ -28,3 +28,7 @@
       </div>
     </div>
   </div>
+  <div *ngIf="this.chatService.isLoading" class="spinner-overlay" style="z-index:9999999">
+    <div class="spinner-overlay-body" style="opacity:0.8 !important"></div>
+    <div class="single4"></div>
+</div>

@@ -16,6 +16,7 @@ export class ChatService {
     public connectedUsers$ = new BehaviorSubject<string[]>([]);
     public messages: any[] = [];
     public users: string[] = []; 
+    public isLoading: any = true;
 
   constructor() { 
     this.start();//First Start the Connection
@@ -34,6 +35,7 @@ export class ChatService {
     try {
       await this.connection.start();
       console.log("Connection is established!");
+      this.isLoading = false;
     } catch (e) {
       console.error(e);
       setTimeout(() => {
